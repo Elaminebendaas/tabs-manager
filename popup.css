@@ -1,0 +1,34 @@
+body {
+    width: 20rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+  }
+  button{
+    border: 0px;
+    padding: 1em;
+    background: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0 black;
+    transition: 0.2s transform ease-in-out;
+  }
+  button:hover{
+    transform: scale(102%);
+  }
+  li {
+    padding: 0.25rem;
+  }
+  li:nth-child(odd) {
+    background: #80808030;
+  }
+  li:nth-child(even) {
+    background: #ffffff;
+  }
+  
+  h3,
+  p {
+    margin: 0;
+  }
